@@ -408,7 +408,7 @@ The log file is stored in $BITRISE_DEPLOY_DIR, and its full path is available in
 			fail("Failed to unset (%s), error: %s", key, err)
 		}
 	}
-
+	/*
 	archive, err := xcarchive.NewIosArchive(tmpArchivePath)
 	if err != nil {
 		fail("Failed to parse archive, error: %s", err)
@@ -428,7 +428,7 @@ The log file is stored in $BITRISE_DEPLOY_DIR, and its full path is available in
 	//
 	// Exporting the ipa with Xcode Command Line tools
 
-	/*
+	
 		You'll get a "Error Domain=IDEDistributionErrorDomain Code=14 "No applicable devices found."" error
 		if $GEM_HOME is set and the project's directory includes a Gemfile - to fix this
 		we'll unset GEM_HOME as that's not required for xcodebuild anyway.
