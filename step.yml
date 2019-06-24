@@ -7,9 +7,9 @@ description: |-
 
   You can share it, upload it, deploy it and catch them
   all! Well, maybe not the last one.
-website: https://github.com/bitrise-steplib/steps-xcode-archive
-source_code_url: https://github.com/bitrise-steplib/steps-xcode-archive
-support_url: https://github.com/bitrise-steplib/steps-xcode-archive/issues
+website: https://github.com/tamasbazs/steps-xcode-archive-without-export
+source_code_url: https://github.com/tamasbazs/steps-xcode-archive-without-export
+support_url: https://github.com/tamasbazs/steps-xcode-archive-without-export/issues
 host_os_tags:
   - "osx-10.10"
 project_type_tags:
