@@ -436,7 +436,7 @@ The log file is stored in $BITRISE_DEPLOY_DIR, and its full path is available in
 		See also:
 		- http://stackoverflow.com/questions/33041109/xcodebuild-no-applicable-devices-found-when-exporting-archive
 		- https://gist.github.com/claybridges/cea5d4afd24eda268164
-	*/
+	
 	log.Infof("Exporting ipa from the archive...")
 	fmt.Println()
 
@@ -853,7 +853,7 @@ is available in the $BITRISE_IDEDISTRIBUTION_LOGS_PATH environment variable`)
 				}
 			}
 		}
-	}
+	}*/
 
 	log.Infof("Exporting outputs...")
 
