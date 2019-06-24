@@ -442,12 +442,12 @@ The log file is stored in $BITRISE_DEPLOY_DIR, and its full path is available in
 
 	if xcodeMajorVersion <= 6 || cfg.UseDeprecatedExport == "yes" {
 		log.Printf("Using legacy export")
-		/*
+
 			Get the name of the profile which was used for creating the archive
 			--> Search for embedded.mobileprovision in the xcarchive.
 			It should contain a .app folder in the xcarchive folder
 			under the Products/Applications folder
-		*/
+
 
 		legacyExportCmd := xcodebuild.NewLegacyExportCommand()
 		legacyExportCmd.SetExportFormat("ipa")
