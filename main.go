@@ -853,7 +853,7 @@ is available in the $BITRISE_IDEDISTRIBUTION_LOGS_PATH environment variable`)
 				}
 			}
 		}
-	}*/
+	}
 
 	log.Infof("Exporting outputs...")
 
@@ -896,7 +896,7 @@ is available in the $BITRISE_IDEDISTRIBUTION_LOGS_PATH environment variable`)
 	}
 
 	log.Donef("The ipa path is now available in the Environment Variable: %s (value: %s)", bitriseIPAPthEnvKey, ipaPath)
-/*
+
 	// Export .dSYMs
 	fmt.Println()
 
