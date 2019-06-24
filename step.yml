@@ -28,7 +28,7 @@ deps:
   - name: go
 toolkit:
   go:
-    package_name: github.com/bitrise-steplib/steps-xcode-archive
+    package_name: github.com/tamasbazs/steps-xcode-archive-without-export
 inputs:
   - project_path: $BITRISE_PROJECT_PATH
     opts:
